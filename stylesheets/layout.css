@@ -1,0 +1,503 @@
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'PT Sans', sans-serif;
+}
+    a { color: inherit;
+    }
+* {
+  box-sizing: border-box;
+}
+.cloud1 {
+  width: 1600%;
+  height: 740%;
+  right: 6900%;
+  float: left;
+  position: absolute;
+  top: 3000%;
+  bottom: 630%;
+  }
+.cloud2 {
+  position: absolute;
+  width: 263px;
+  height: 119px;
+   top: 1100px;
+  float: right;
+  left: 1080px;
+}
+.cloud3 {
+  width: 263px;
+  height: 119px;
+  right: 1100px;
+  float: left;
+  position: absolute;
+  top: 2900px;
+}
+.cloud4 {
+  position: absolute;
+  width: 263px;
+  height: 119px;
+   top: 4020px;
+  float: right;
+  left: 850px;
+}
+.cloud5 {
+  position: absolute;
+  width: 263px;
+  height: 119px;
+   top: 1800px;
+  float: right;
+    left: 850px
+  }
+  .cloud6 {
+      position: absolute;
+      width: 263px;
+      height: 119px;
+       top: 3300px;
+      float: right;
+      left: 400px;
+    }
+.tr1 {
+  width: 190px;
+  height: 209px;
+  right: 1100px;
+  float: left;
+  position: absolute;
+  top: 1200px;
+}
+.tr2 {
+  position: absolute;
+  width: 190px;
+  height: 209px;
+  top: 2000px;
+  float: right;
+  left: 1000px;
+}
+.tr3 {
+  position: absolute;
+  width: 190px;
+  height: 209px;
+  top: 2720px;
+  float: right;
+  left: 1115px;
+}
+.tr4 {
+  width: 190px;
+  height: 209px;
+  right: 1100px;
+  float: left;
+  position: absolute;
+  top: 3500px;
+}
+.tr5 {
+  position: absolute;
+  width: 190px;
+  height: 209px;
+  top: 4650px;
+  float: right;
+  left: 1090px;
+}
+.lin1 {
+  position: absolute;
+  width: 262px;
+  height: 440px;
+  top: 900px;
+  float: right;
+  left: 500px;
+}
+.lin2 {
+  position: absolute;
+  width: 334px;
+  height: 490px;
+   top: 1715px;
+  float: right;
+  left: 659px;
+}
+.lin3 {
+  position: absolute;
+  width: 56px;
+  height: 387px;
+   top: 2570px;
+  float: left;
+  right: 1013px;
+}
+.lin4 {
+  position: absolute;
+  width: 55px;
+  height: 345px;
+   top: 3265px;
+  float: right;
+  left: 1035px;
+}
+.lin5 {
+  position: absolute;
+  width: 213px;
+  height: 412px;
+   top: 3952px;
+  float: right;
+  left: 695px;
+}
+.lin6 {
+  position: absolute;
+  width: 311px;
+  height: 312px;
+   top: 4740px;
+  float: right;
+  left: 640px;
+}
+.nazuni {
+  position: absolute;
+width: 130px;
+height: 95px;
+left: 690px;
+top: 670px;
+margin-left: auto;
+margin-right: auto;
+}
+.nazaf {
+  position: absolute;
+  width: 130px;
+  height: 95px;
+   top: 1430px;
+  float: right;
+  left: 880px;
+}
+.nazkil {
+  width: 270px;
+  height: 95px;
+  right: 860px;
+  float: left;
+  position: absolute;
+  top: 2300px;
+}
+.naztel {
+  position: absolute;
+width: 130px;
+height: 95px;
+left: 620px;
+top: 3050px;
+margin-left: auto;
+margin-right: auto;
+}
+.nazden {
+  position: absolute;
+  width: 130px;
+  height: 95px;
+   top: 3725px;
+  float: right;
+  left: 880px;
+}
+.nazkuk {
+  width: 110px;
+  height: 95px;
+  right: 900px;
+  float: left;
+  position: absolute;
+  top: 4490px;
+}
+.nazel {
+  position: absolute;
+width: 130px;
+height: 95px;
+left: 620px;
+top: 5150px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.cloud1, .cloud1:before, .cloud1:after {
+  width: 263px;
+  height: 119px;
+  right: 1100px;
+  float: left;
+  position: absolute;
+  top: 480px;
+  bottom: 100px;
+}
+.cloud1 {
+  bottom: 100px;
+  -webkit-animation: cloud 20s infinite linear;
+          animation: cloud 20s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -1000px; }
+    100% { left: 1000px; }
+}
+.cloud1:before {
+  content: '';
+  left: 50px;
+}
+.cloud1:after {
+  content: '';
+  left: auto;
+  right: 100px;
+  top: -10px;
+}
+
+.cloud2, .cloud2:before, .cloud2:after {
+  position: absolute;
+  width: 263px;
+	height: 119px;
+}
+.cloud2 {
+  bottom: 100px;
+  -webkit-animation: cloud 45s infinite linear;
+          animation: cloud 45s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -1000px; }
+    100% { left: 1000px; }
+}
+.cloud2:before {
+  content: '';
+  left: 50px;
+}
+.cloud2:after {
+  content: '';
+  left: auto;
+  right: 100px;
+  top: -10px;
+}
+
+.cloud3, .cloud3:before, .cloud3:after {
+  width: 263px;
+  height: 119px;
+  right: 1100px;
+  float: left;
+  position: absolute;
+  top: 2900px;
+}
+.cloud3 {
+  bottom: 100px;
+  -webkit-animation: cloud 25s infinite linear;
+          animation: cloud 25s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud3:before {
+  content: '';
+  left: 50px;
+}
+.cloud3:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+
+
+.cloud4, .cloud4:before, .cloud4:after {
+  position: absolute;
+  width: 263px;
+  height: 119px;
+   top: 4020px;
+  float: right;
+  left: 850px;
+}
+.cloud4 {
+  bottom: 100px;
+  -webkit-animation: cloud 30s infinite linear;
+          animation: cloud 30s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud4:before {
+  content: '';
+  left: 50px;
+}
+.cloud4:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+
+.cloud4 {
+  bottom: 100px;
+  -webkit-animation: cloud 30s infinite linear;
+          animation: cloud 30s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud4:before {
+  content: '';
+  left: 50px;
+}
+.cloud4:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+
+
+
+.cloud5, .cloud5:before, .cloud5:after {
+  position: absolute;
+  width: 263px;
+  height: 119px;
+   top: 1800px;
+  float: right;
+  left: 850px;
+}
+.cloud5 {
+  bottom: 100px;
+  -webkit-animation: cloud 25s infinite linear;
+          animation: cloud 10s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud4:before {
+  content: '';
+  left: 50px;
+}
+.cloud5:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+
+.cloud5 {
+  bottom: 100px;
+  -webkit-animation: cloud 30s infinite linear;
+          animation: cloud 30s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud5:before {
+  content: '';
+  left: 50px;
+}
+.cloud5:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+.cloud6, .cloud6:before, .cloud6:after {
+  position: absolute;
+  width: 263px;
+  height: 119px;
+   top: 3300px;
+  float: right;
+  left:400px;
+}
+.cloud6 {
+  bottom: 100px;
+  -webkit-animation: cloud 1s infinite linear;
+          animation: cloud 10s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud6:before {
+  content: '';
+  left: 50px;
+}
+.cloud6:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+
+.cloud6 {
+  bottom: 100px;
+  -webkit-animation: cloud 30s infinite linear;
+          animation: cloud 30s infinite linear;
+}
+@-webkit-keyframes cloud {
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+@keyframes cloud {
+
+    0%   { left: -100px; }
+    100% { left: 1000px; }
+}
+.cloud6:before {
+  content: '';
+  left: 50px;
+}
+.cloud6:after {
+  content: '';
+  left: 100px;
+  top: -10px;
+}
+.nq1 {
+  position: absolute;
+  width: 84px;
+  height: 90px;
+  top: 1100px;
+  float: right;
+  left: 590px;
+}
+.nq2 {
+  position: absolute;
+  width: 84px;
+  height: 90px;
+  top: 1100px;
+  float: right;
+  left: 650px;
+}
+.nq3 {
+  position: absolute;
+  width: 84px;
+  height: 90px;
+  top: 2650px;
+  float: right;
+  left: 365px;
+}
+.nq4 {
+  position: absolute;
+  width: 84px;
+  height: 90px;
+  top: 2650px;
+  float: right;
+  left: 300px;
+}
+.s
